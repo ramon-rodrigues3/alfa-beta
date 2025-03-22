@@ -46,6 +46,23 @@ body{
     width: 80%;
     padding: 5vw;
 }
+.secao_iniciar{
+    margin: auto;
+    background-color: white;
+    height: 90vh;
+    width: 80%;
+    padding: 5vw;
+    display: flex;
+    align-items: center;
+}
+.botao_iniciar{
+    color: white;
+    width: 6vw;
+    padding: 2px;
+    font-size: 20px;
+    margin: auto;
+    background-color: green;
+}
 .aulas{
     margin-top: 8vh;
     display: flex;
@@ -91,8 +108,9 @@ body{
 }
 
 .lista_opcoes{
+    margin: auto;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     margin-top: 8vh;
     list-style-type: none;
     gap: 2vh;
@@ -108,15 +126,19 @@ body{
 }
 
 .som_secundario{
-    width: 64px;
-    height: 64px;
+    width: 10vw;
+    height: 10vw;
     border-radius: 16px;
     background-color: var(--dark-slate-gray);
+    color: white;
+    font-size: 32px;
+    border-bottom: 10px solid black;
 }
 
-.opcao{
-    gap: 64px;
+.som_secundario:active{
+    border-bottom: 2px solid black;
 }
+
 
 .texto_referencia{
     display: flex;
